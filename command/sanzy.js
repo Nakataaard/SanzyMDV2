@@ -15,7 +15,7 @@ var { performance } = require('perf_hooks')
 var { yta, ytv, servers } = require('../command/y2mate')
 var { smsg, getGroupAdmins, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, delay, format, logic, generateProfilePicture, parseMention, getRandom } = require('../message/myfunc')
 var database = require('../json/database.json')
-var nomorbot = '6288973004570'
+var nomorbot = '6285162634171'
 var simbol = '»'
 var setting = require('../json/setting.json')
 let {
@@ -208,7 +208,7 @@ sanzy.sendReadReceipt(m.chat, sender, [m.key.id])
 
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
-const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./image/sanzy2.jpg'), surface: 200, message: `Nakata`, orderTitle: 'Please Subscribe Youtube Nakata Z', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6285748894171-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./image/sanzy2.jpg'), surface: 200, message: `Nakata`, orderTitle: 'Please Subscribe Youtube Nakata Z', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 		
 //━━━━━━━━━━━━━━━[ FITURNYA ]━━━━━━━━━━━━━━━━━//
         
@@ -2210,7 +2210,7 @@ if (stdout) return m.reply(stdout)
 }
 }
        
-if (budy.includes('6281276698054')) {  
+if (budy.includes('6285748894171')) {  
 sanzy.sendMessage(m.chat, {text: 'Ada Apa Ya Tags Owner Saya'}, {quoted: ftroli})
 	  }	  
 
