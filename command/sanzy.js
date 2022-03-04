@@ -177,7 +177,7 @@ klik https://wa.me/${nomorbot.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] })
 //━━━━━━━━━━━━━━━[ CONSOLE MESSAGE ]━━━━━━━━━━━━━━━━━//
 
 if (m.message) {
-console.log(chalk.black(chalk.bgWhite('[ Sanzy YT ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> Dari'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> Di'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
+console.log(chalk.black(chalk.bgWhite('[ Nakata Z ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> Dari'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> Di'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
 }
 
 //━━━━━━━━━━━━━━━[ SEND MESSAGE ]━━━━━━━━━━━━━━━━━//
@@ -208,7 +208,7 @@ sanzy.sendReadReceipt(m.chat, sender, [m.key.id])
 
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
-const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./image/sanzy2.jpg'), surface: 200, message: `𝑺𝒂𝒏𝒛𝒚`, orderTitle: 'Please Subscribe Youtube Sanzy YT', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./image/sanzy2.jpg'), surface: 200, message: `Nakata`, orderTitle: 'Please Subscribe Youtube Nakata Z', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 		
 //━━━━━━━━━━━━━━━[ FITURNYA ]━━━━━━━━━━━━━━━━━//
         
@@ -525,12 +525,12 @@ hydratedContentText: txt,
 hydratedButtons: [{
 urlButton: {
 displayText: 'Res Api',
-url: 'https://sanzykey.herokuapp.com/api'
+url: 'https://nakatatzy.herokuapp.com/api'
 }
 }, {
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/c/sanzyyt/'
+url: 'https://youtube.com/channel/UCERXfP4wOi1JVuCoDmUvs6g'
 }
 }, {
 quickReplyButton: {
@@ -833,7 +833,7 @@ let teks = `*_Tag All Member_*\n*Pesan : ${q ? q : '-'}*\n\n`
 for (let mem of groupMembers) {
 teks += `${startnum++}. @${mem.id.split('@')[0]}\n`
 }
-teks += `\n⋙ Sanzy YT ⋘`
+teks += `\n⋙ Nakata Z ⋘`
 sanzy.sendMessage(m.chat, { text: teks, mentions: groupMembers.map(a => a.id) }, { quoted: m })
 break
 case 'tag': case 'totag': case 'hidetag': {
@@ -1178,7 +1178,7 @@ Translate : ${resultnya.Translate}`
 let buttons = [{buttonId: `doaharian`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1196,7 +1196,7 @@ Translation : ${resultnya.translation}`
 let buttons = [{buttonId: `tahlil`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1214,7 +1214,7 @@ Tnc : ${resultnya.tnc}`
 let buttons = [{buttonId: `wirid`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1244,7 +1244,7 @@ Terjemahan : ${resultnya.terjemahan}`
 let buttons = [{buttonId: `bacaansholat`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1263,7 +1263,7 @@ Terjemahan : ${resultnya.terjemahan}`
 let buttons = [{buttonId: `niatsholat`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1282,7 +1282,7 @@ Translate En : ${resultnya.translate_en}`
 let buttons = [{buttonId: `asmaulhusna`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1304,16 +1304,16 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.title}\nQuality : ${webapi.result.quality}\nSize : ${webapi.result.size}\nViews : ${webapi.result.views}\nLikes : ${webapi.result.likes}\nDislike : ${webapi.result.dislike}\nChannel : ${webapi.result.channel}\nUpload Date : ${webapi.result.uploadDate}\nDesc : ${webapi.result.desc}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `Nakata`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'Res Api',
-url: `https://sanzykey.herokuapp.com/api`
+url: `https://nakatatzy.herokuapp.com/api`
 }
 }, {
 urlButton: {
 displayText: 'Youtube Owner',
-url: 'https://youtube.com/c/sanzyyt'
+url: 'https://youtube.com/channel/UCERXfP4wOi1JVuCoDmUvs6g'
 }
 }, {
 quickReplyButton: {
@@ -1354,16 +1354,16 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.title}\nSize : ${webapi.result.size}\nViews : ${webapi.result.views}\nLikes : ${webapi.result.likes}\nDislike : ${webapi.result.dislike}\nChannel : ${webapi.result.channel}\nUpload Date : ${webapi.result.uploadDate}\nDesc : ${webapi.result.desc}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `Nakata`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'Res Api',
-url: `https://sanzykey.herokuapp.com/api`
+url: `https://nakatatzy.herokuapp.com/api`
 }
 }, {
 urlButton: {
 displayText: 'Youtube Owner',
-url: 'https://youtube.com/c/sanzyyt'
+url: 'https://youtube.com/channel/UCERXfP4wOi1JVuCoDmUvs6g'
 }
 }, {
 quickReplyButton: {
@@ -1405,16 +1405,16 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.title}\nSize : ${webapi.result.size}\nViews : ${webapi.result.views}\nLikes : ${webapi.result.likes}\nDislike : ${webapi.result.dislike}\nChannel : ${webapi.result.channel}\nUpload Date : ${webapi.result.uploadDate}\nDesc : ${webapi.result.desc}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `Nakata`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'Res Api',
-url: `https://sanzykey.herokuapp.com/api`
+url: `https://nakatatzy.herokuapp.com/api`
 }
 }, {
 urlButton: {
 displayText: 'Youtube Owner',
-url: 'https://youtube.com/c/sanzyyt'
+url: 'https://youtube.com/channel/UCERXfP4wOi1JVuCoDmUvs6g'
 }
 }, {
 quickReplyButton: {
@@ -1440,7 +1440,7 @@ webapi = await fetchJson(api('sanzy', '/tiktokvideo', { url: text }, 'apikey'))
 let buttons = [{buttonId: `nowm ${isUrl(text)}`, buttonText: {displayText: 'NO WM'}, type: 1},{buttonId: `wm ${isUrl(text)}`, buttonText: {displayText: 'WM'}, type: 1}]
 let buttonMessage = {
 text: `Silahkan Pilih File Yang Ingin Di Download`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1468,7 +1468,7 @@ webapi = await fetchJson(api('sanzy', '/mediafireD', { url: text }, 'apikey'))
 let buttons = [{buttonId: `mddl ${isUrl(text)}`, buttonText: {displayText: 'DOWNLOAD'}, type: 1}]
 let buttonMessage = {
 text: `File Berhasil Di Dapatkan\n\nNama : ${webapi.result.nama}\nSize : ${webapi.result.size}\nLink : ${webapi.result.link}\n\nSilahkan Klik Tombol Download Di Bawah Ini`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1514,7 +1514,7 @@ webapi = await fetchJson(api('sanzy', '/bijak', {},'apikey'))
 let buttons = [{buttonId: `katabijak`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Kata Bijak : ${webapi.result}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1527,7 +1527,7 @@ webapi = await fetchJson(api('sanzy', '/fakta', {},'apikey'))
 let buttons = [{buttonId: `fakta`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Fakta : ${webapi.result}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1553,7 +1553,7 @@ webapi = await fetchJson(api('sanzy', '/quotes', {},'apikey'))
 let buttons = [{buttonId: `quotes`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Quotes : ${webapi.quotes}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1566,7 +1566,7 @@ webapi = await fetchJson(api('sanzy', '/bucin', {},'apikey'))
 let buttons = [{buttonId: `bucin`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Bucin : ${webapi.result.Bucin}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1579,7 +1579,7 @@ webapi = await fetchJson(api('sanzy', '/Pantun', {},'apikey'))
 let buttons = [{buttonId: `pantun`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Pantun : ${webapi.result.Pantun}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1592,7 +1592,7 @@ webapi = await fetchJson(api('sanzy', '/cerpen', {},'apikey'))
 let buttons = [{buttonId: `cerpen`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Title : ${webapi.result.title}\nPengarang : ${webapi.result.pengarang}\nKategori : ${webapi.result.kategori}\nCerpen : ${webapi.result.cerpen}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `Nakata`,
 buttons: buttons,
 headerType: 2
 }
@@ -1616,16 +1616,16 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: txt,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `Nakata`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'Res Api',
-url: `https://sanzykey.herokuapp.com/api`
+url: `https://nakatatzy.herokuapp.com/api`
 }
 }, {
 urlButton: {
 displayText: 'Youtube Owner',
-url: 'https://youtube.com/c/sanzyyt'
+url: 'https://youtube.com/channel/UCERXfP4wOi1JVuCoDmUvs6g'
 }
 }, {
 quickReplyButton: {
@@ -1876,16 +1876,16 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.result.title}\nDuration : ${webapi.result.result.duration}\nVideo Type : ${webapi.result.result.videoType}\nVideo Width : ${webapi.result.result.videoWidth}\nVideo Height : ${webapi.result.result.videoHeight}\nInfo : ${webapi.result.result.info}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `Nakata`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'Res Api',
-url: `https://sanzykey.herokuapp.com/api`
+url: `https://nakatatzy.herokuapp.com/api`
 }
 }, {
 urlButton: {
 displayText: 'Youtube Owner',
-url: 'https://youtube.com/c/sanzyyt'
+url: 'https://youtube.com/channel/UCERXfP4wOi1JVuCoDmUvs6g'
 }
 }, {
 quickReplyButton: {
